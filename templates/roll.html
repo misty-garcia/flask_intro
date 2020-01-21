@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>My Flask Application</title>
+    </head>
+    <body>
+        <h1>Hello, User.</h1>
+        <h4>Here are your dice rolls: </h4>
+        {% for roll in rolls %}
+            {{ roll }}
+            <br>
+        {% endfor %}
+  
+    </body>
+</html>
